@@ -1,0 +1,7 @@
+There is set of two microservices:
+1. SpringLimitsService
+2. SpringRest-Config-Server
+
+1. SpringRest-Config-Server --> Minimum and Maximum values store in files of git repository.
+Git repository linked to the SpringRest-Config-Server.
+2. SpringLimitsService --> This service takes minimum and maximum values from SpringRest-Config-Server.
